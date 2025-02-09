@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import com.example.app_horoscopos.R
 import com.example.app_horoscopos.databinding.FragmentLuckBinding
 import com.example.app_horoscopos.databinding.FragmentPalmistryBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class PalmistryFragment : Fragment() {
 
     private var _binding: FragmentPalmistryBinding? = null
