@@ -11,7 +11,6 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.app_horoscopos.DOMAIN.Model.HoroscopeInfo
 import com.example.app_horoscopos.DOMAIN.Model.HoroscopeInfo.*
 import com.example.app_horoscopos.DOMAIN.Model.HoroscopeModel
 import com.example.app_horoscopos.databinding.FragmentHoroscopoBinding
@@ -34,7 +33,7 @@ class HoroscopeFragment : Fragment() {
     }
 
     private fun initUI(){
-        initUIState()
+        initList()
         initUIState()
     }
 
@@ -80,7 +79,7 @@ class HoroscopeFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentHoroscopeBinding.inflate(layoutInflater, container, false)
+        _binding = FragmentHoroscopoBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 
