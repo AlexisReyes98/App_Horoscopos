@@ -59,6 +59,7 @@ dependencies {
 
     //DaggerHilt
     implementation(libs.hilt.android)
+    testImplementation(libs.junit.jupiter)
     kapt(libs.hilt.compiler)
 
     //Retrofit
@@ -81,8 +82,15 @@ dependencies {
 
     //UnitTesting
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
+    testImplementation (libs.kotlintest.runner.junit5)
+    testImplementation (libs.mockk)
 
     //UITesting
+    androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(libs.androidx.espresso.contrib)
+    androidTestImplementation (libs.androidx.espresso.intents)
+    androidTestImplementation (libs.hilt.android.testing)
+    androidTestImplementation (libs.androidx.fragment.testing)
+    kaptAndroidTest(libs.hilt.android.compiler)
 }
