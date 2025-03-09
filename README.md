@@ -8,7 +8,7 @@ IDE usado: Android Studio para Kotlin.
 
 Ejecución de la App en un móvil Android:
 
-![Img1](https://github.com/user-attachments/assets/3402796c-26e5-4b44-a9b6-04cd163843b9)
+https://github.com/user-attachments/assets/78eb934e-80a7-4235-a795-4a2b47868f63
 
 ![Img1](https://github.com/user-attachments/assets/fc25ed2b-f43f-495c-8b46-c04d8c21f753)
 
@@ -20,4 +20,4 @@ Ejecución de la App en un móvil Android:
 
 ![Img5](https://github.com/user-attachments/assets/14c6b6e4-61b1-400c-83a8-667cd6607948)
 
-![Img6](https://github.com/user-attachments/assets/8c12d8f3-845f-4968-bf79-017e808fce55)
+![Img7](https://github.com/user-attachments/assets/3436f5a6-a40e-4134-899e-83014acf106c)
